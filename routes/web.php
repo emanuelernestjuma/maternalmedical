@@ -31,8 +31,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 
-
-
 Route::post('dashboard1',[App\Http\Controllers\feedbackController::class, 'Makefeedback']);
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard1', function () {
 
