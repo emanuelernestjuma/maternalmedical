@@ -18,7 +18,6 @@
             </div>
             @endif
 
-
             <form action="{{ route('dashboard1') }}" method="POST">
               @csrf
             <form class="row g-3 needs-validation" novalidate>
