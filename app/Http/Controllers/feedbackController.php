@@ -13,7 +13,7 @@ class feedbackController extends Controller
     public function Makefeedback(Request $request){
        
    feedback::insert([
-    
+  
   
    'feedId' => $request->feedId ,
    'feedDescription' => $request->feedDescription,
